@@ -1,5 +1,5 @@
 const jwt = require("jwt-then");
-const db = require('./config/sql');
+const db = require('../config/sql');
 
 module.exports = async (req, res, next) => {
   try {    
