@@ -6,7 +6,7 @@ const fileupload = require('express-fileupload');
 app.use(express.json());
 app.use(fileupload());
 app.use(cors({
-  exposedHeaders: "*"
+  origin: "*"
 }));
 app.use(express.urlencoded({ extended: true }));
 //Bring in the routes
